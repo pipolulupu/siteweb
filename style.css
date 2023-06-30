@@ -1,10 +1,55 @@
 
-h1 {
-    color: rgb(255, 0, 238);
-}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #6C63FF;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 10px;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .thumbnail {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  footer {
+    background-color: #6C63FF;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+  }
 
-h1 {
-    color: rgb(255, 0, 123);
+.montitre {
+    color: rgb(218, 234, 48);
+    font-size: large;
+    font-weight: bold;
 }
 
 p {
@@ -15,12 +60,60 @@ p {
     color: #663399;
 }
 p {
-    /* J'en profite pour
-    ajouter un commentaire
-    sur plusieurs lignes */
+    
         color: blue;
     }
 
+    .banner {
+        background-image: url("bananime.png");
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding: 50px 0;
+        color: #fff;
+        height: 100px;
+    }
+    
+    
+    .banner h1 {
+        font-size: 36px;
+        font-weight: bold;
+    }
+    
+    
+    .content {
+        text-align: center;
+        padding: 50px 0;
+    }
+    /* .logo h1 {
+
+    display: inline;
+    font-size: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+    } */
+    .anime-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  
+  
+  .anime-item {
+      margin: 10px;
+      width: 200px;
+  }
+  
+  
+  .anime-item img {
+      width: 100%;
+      border-radius: 5px;
+  }
+  .anime-item h4 {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
 
     .ma-classe {
         color: #663399;
