@@ -11,6 +11,11 @@ body {
     text-align: center;
   }
   
+  .centre {
+
+    text-align: center;
+  }
+
   nav {
     background-color: #6C63FF;
     color: #FFF;
